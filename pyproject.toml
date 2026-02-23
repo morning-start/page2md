@@ -7,8 +7,17 @@ authors = [
     { name = "morning-start", email = "morning-start@foxmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "drissionpage>=4.1.1.2",
+    "loguru>=0.7.3",
+    "markdownify>=1.2.2",
+    "tqdm>=4.67.3",
+]
 
 [build-system]
 requires = ["uv_build>=0.10.4,<0.11.0"]
 build-backend = "uv_build"
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
