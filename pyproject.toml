@@ -1,7 +1,7 @@
 [project]
 name = "page2md"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "将网页转换为 Markdown 的 Python 库"
 readme = "README.md"
 authors = [
     { name = "morning-start", email = "morning-start@foxmail.com" }

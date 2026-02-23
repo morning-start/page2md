@@ -48,7 +48,7 @@ from .utils import (
     url_to_filename,
 )
 
-__version__ = "0.2.0"
+__version__ = "1.0.0"
 __all__ = [
     # 核心类
     "HtmlToMarkdown",
