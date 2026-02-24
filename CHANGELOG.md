@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2026-02-24
+
+### Changed
+- 移除 `collect_urls` 函数，统一使用 `flatten_siderbar` 处理侧边栏 URL 收集
+- 优化 API，减少重复函数
+
 ## [1.0.0] - 2026-02-24
 
 ### Added
