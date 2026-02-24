@@ -44,25 +44,6 @@ def flatten_siderbar(
     return urls
 
 
-def collect_urls(sidebar_dict: Dict, domain: str) -> List[tuple]:
-    """
-    收集侧边栏中的所有 URL（简化版）。
-
-    Args:
-        sidebar_dict: 侧边栏字典
-        domain: 域名
-
-    Returns:
-        [(标题, URL), ...] 列表
-    """
-    urls = []
-    for section in sidebar_dict.values():
-        for title, path in section.items():
-            full_url = f"{domain}{path.lstrip('/')}"
-            urls.append((title, full_url))
-    return urls
-
-
 def url_to_filename(
     url: str,
     domain: str = "",

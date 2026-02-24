@@ -28,7 +28,6 @@ from .utils import (
     batch_url_to_filename,
     build_url_index,
     clean_markdown,
-    collect_urls,
     deduplicate_urls,
     estimate_crawl_time,
     extract_content,
@@ -63,7 +62,6 @@ __all__ = [
     "SidebarItem",
     # 工具函数
     "flatten_siderbar",
-    "collect_urls",
     "url_to_filename",
     "make_save_callback",
     "make_progress_callback",
